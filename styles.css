@@ -1,0 +1,166 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+
+#hero-section, #action-section, #guide-section {
+    height: 343px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'quicksand', 'Times New Roman', Times, serif;
+}
+
+p, h3 , h4{
+    color: #2f3e46;
+}
+
+/********************************/
+
+#hero-section {
+    background-image: url("images/hero-img.jpg");
+    background-size: cover;
+    background-position-y: -10px; 
+    color: #FFFFFF;
+    padding: 0.5px;
+}
+
+
+h1, h2 {
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 25px;
+    background: #52796f;
+    padding: 5px 12px;
+    border-radius: 10px;
+    margin: 122px 260px 16px;
+    box-shadow: 3px 3px #2f3e46;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0 154px;
+    background: #84a98c;
+    padding: 5px 28px;
+    box-shadow: 3px 3px #52796f;
+    
+}
+/************SECTION-2***************/
+
+#action-section {
+    background: #cad2c5;
+    padding: 0.05px;
+}
+
+#action-header {
+    margin-top: 20px;
+    position: relative
+}
+
+.action-img:hover {
+    border: 3px solid #fff;
+}
+
+/* #action-header::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: #52796f;
+    top: 33px;
+    
+} */
+
+#flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 83px;
+}
+
+
+.item-header {
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.item-desc {
+    margin-top: 0;
+    font-size: 13px;
+    width: 198px;
+}
+
+.activity-img {
+    margin-bottom: 0;
+}
+/************SECTION-3***************/
+
+#guide-section {
+    display: flex;
+    justify-content: center;
+}
+
+#buisness-card {
+    margin-top: 50px;
+    width: 340px;
+    height: 200px;
+    display: flex;
+    background: #84a98c;
+    box-shadow: -13px 13px #52796f;
+    border-radius: 6px;
+    flex-direction: row-reverse;
+    padding: 23px 13px;
+    justify-content: space-between;
+}
+
+#profile-img {
+    width: 170px;
+    height: 160px;
+    border-radius: 20px;
+    margin: auto 0;
+}
+
+#guide-info {
+    margin: auto 0;
+}
+
+#guide-header {
+    font-size: 18px;
+    
+}
+#guide-about, #guide-name {
+    font-size: 13px;
+}
+
+#guide-about {
+    font-style: italic;
+}
+
+#guide-name {
+    font-weight: 800;
+}
+
+
+
+
+
